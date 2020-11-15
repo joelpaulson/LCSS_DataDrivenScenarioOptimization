@@ -16,7 +16,7 @@ icount = [];
 ScenarioData = {};
 for i = 1:Nrepeat
     % local filename for ith set of tuning parameters
-    filename = ['./scenario_data/scenario_param' num2str(i) '_v2']';
+    filename = ['./scenario_data/scenario_param' num2str(i)]';
     
     % try to load file
     try
